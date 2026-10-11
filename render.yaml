@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: niyamsetu
+    runtime: python
+    plan: free
+    buildCommand: python scripts/check_dataset.py
+    startCommand: python app.py
+    healthCheckPath: /healthz
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.7
+      - key: NIYAMSETU_EXPECTED_RECORDS
+        value: "106"
+      - key: NIYAMSETU_API_KEY
+        sync: false
+      - key: NIYAMSETU_LLM_BASE_URL
+        value: https://api.deepseek.com
+      - key: NIYAMSETU_LLM_MODEL
+        value: deepseek-flash
+      - key: NIYAMSETU_LLM_TIMEOUT
+        value: "35"
+      - key: NIYAMSETU_LLM_PROVIDER_LABEL
+        value: DeepSeek

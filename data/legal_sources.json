@@ -1,0 +1,50 @@
+﻿{
+  "product": "NiyamSetu",
+  "last_reviewed": "2026-10-11",
+  "overall_current_law_status": "not_fully_verified",
+  "base_source": {
+    "title": "M.P. Bhumi Vikas Rules, 2012 — consolidated text up to 6 March 2025",
+    "authority": "Directorate of Town and Country Planning, Madhya Pradesh",
+    "url": "/api/pdf",
+    "local_pdf_url": "/api/pdf",
+    "official_pdf_url": "https://www.mptownplan.gov.in/NewsPDF/bvn06032025E.pdf",
+    "rules_listing_url": "https://mptownplan.gov.in/rule.aspx",
+    "version_id": "2025-03-06-consolidated",
+    "status": "historical_only",
+    "provenance_sha256": "4751844a84cb2a970e3aa43ad62658f9ab0fbbd896b59aecbe0db6f40aa9354c",
+    "tls_status": "host_certificate_untrusted_ca",
+    "tls_warning": "The official departmental host (mptownplan.gov.in) presents an SSL certificate for *.test.mp.gov.in by an untrusted CA, causing browser ERR_CERT_AUTHORITY_INVALID. NiyamSetu serves the identical verified official document locally at /api/pdf while preserving links to the official server.",
+    "note": "Official departmental publication discovered, but it does not establish completeness of amendments after 6 March 2025. The sample data included with this app is excerpted from the event-provided dataset, not a complete rulebook."
+  },
+  "amendment_watchlist": [
+    {
+      "id": "reported-2026-08-28-rule-2-5-c",
+      "target_rule": "2(5)(c)",
+      "reported_date": "2026-08-28",
+      "status": "pending_official_verification",
+      "secondary_source": "https://teamleaseregtech.com/updates/article/59469/government-of-madhya-pradesh-amendment-to-land-development-rules/",
+      "official_notification_url": null,
+      "effective_date": null,
+      "note": "Secondary source reports an amendment concerning construction/reconstruction on plots up to 500 sq m. Primary notification and effective date have not been verified in this project. Do not state a definitive permission exemption based on this report."
+    },
+    {
+      "id": "reported-2025-12-15-rule-5-6-green-buildings",
+      "target_rule": "5(6) and Appendix-M (reported)",
+      "reported_date": "2025-12-15",
+      "status": "reported_secondary_source",
+      "secondary_source": "https://www.indianemployees.com/gazette-notifications/details/amendment-to-the-madhya-pradesh-land-development-rules-2012-15-12-2025",
+      "official_notification_url": null,
+      "effective_date": "2025-12-15 (date in secondary report; verify against primary publication)",
+      "note": "A secondary copy/search result describes a gazette item concerning green building provisions. Primary-host verification not completed."
+    }
+  ],
+  "dataset_origin_url": "https://github.com/Vishal4742/bhopal-impact-lab-2026-problem-statements/tree/main/track-1-bhumi-vikas-sahayak/data",
+  "dataset_scope_note": "The bundled demo excerpts are copied from the event-provided sample JSONL. They are not a full rulebook and are not independently checked against every PDF glyph/cell.",
+  "official_listing_review": {
+    "checked_at": "2026-10-11",
+    "url": "https://mptownplan.gov.in/rule.aspx",
+    "status": "reviewed_listing_not_full_amendment_audit",
+    "finding": "The department listing exposes planning instruments and amendments; that alone does not establish a complete amendment history for the Bhumi Vikas Rules or verify the reported Rule 2(5)(c) notification. Do not conflate amendments to a different instrument with amendments to the Bhumi Vikas Rules.",
+    "primary_rule_2_5_c_notification_verified": false
+  }
+}
